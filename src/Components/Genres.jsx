@@ -35,6 +35,7 @@ export default function Genres() {
                                 focus:border-blue-500
                                 appearance-none"
                     >
+                        <option disabled selected >--Select--</option>
                         <option onClick={() => getBooks("fiction")}>Fiction</option>
                         <option onClick={() => getBooks("fantasy")}>Fantasy</option>
                         <option onClick={() => getBooks("mystery")}>Mystery</option>

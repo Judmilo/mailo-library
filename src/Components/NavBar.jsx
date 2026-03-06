@@ -16,7 +16,7 @@ export default function NavBar() {
                     type="text"
                     onChange={(event) => setTitle(event.target.value)}
                     placeholder="Search a Book Title"
-                    className="lg:w-[500px] lg:text-black lg:p-1 lg:px-4 bg-transparent lg:text-xl text-md outline-none w-full max-[400px]:p-1 max-[400px]:text-sm"
+                    className="text-xs lg:w-[500px] text-black lg:p-1 lg:px-4 bg-transparent lg:text-xl outline-none w-full max-[400px]:p-2"
                 />
                 <button onClick={() => searchTitle(title)} className="text-xl font-bold bg-yellow-400 p-1 h-8 px-2 rounded-2xl">
                     <BsSearch />
