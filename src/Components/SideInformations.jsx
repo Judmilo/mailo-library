@@ -6,7 +6,7 @@ export default function SideInformations() {
     const { authors, weekly} = useLibrary();
     return (
         <aside className="flex flex-col w-[800px] gap-20 mt-20">
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 lg:ml-">
                 <h2>Authors</h2>
                 <div className="flex flex-col gap-3">
                     {authors.map((author) => (
